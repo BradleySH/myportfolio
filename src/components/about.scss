@@ -21,6 +21,7 @@
         
         h3{
            text-decoration: underline;
+           font-size: 1.5em;
          
         }
         ul{
@@ -47,11 +48,15 @@
         height: 100%;
         h3{
             text-decoration: underline;
+            font-size: 1.5em;
             
         }
         p{
             @include tablet{
                 padding: 1em;
+            }
+            @include desktop{
+                width: 60%;
             }
         }
         

@@ -17,7 +17,7 @@ export default function About() {
             </div>
             <div className="right">
                 <h3>About Me</h3>
-                <p>Over the past year I have had many life experience that have come together to bring me here today.  My drive, passion, and thirst for knowledge and bettering myself have led me through many leadership roles and very trying times.  After years in the Army and in Healthcare I have a new passion to help others and to help myself.  I do not define myself for work I have done but the work I want to be doing.  Skills they can be taught, but the passion to learn and grow is something inherent and that is something I have had my whole life. Let me bring my passions and experience to your workplace.</p>
+                <p>Over the past years I have had many life experience that have came together to bring me here today.  My drive, passion, and thirst for knowledge have led me through many leadership roles and trying times.  After years in the Army and in Healthcare I have a new passion to help others and to help myself.  I do not define myself for work I have done but the work I want to be doing.  Skills they can be taught, but the passion to learn and grow is something inherent and that is something I have had my whole life. Let me bring my passions and experience to your workplace.</p>
             </div>
             
         </div>

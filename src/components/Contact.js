@@ -3,8 +3,17 @@ import "./contact.scss"
 import "@material-ui/icons/"
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import {createMuiTheme, ThemeProvider} from "@material-ui/core"
 
 export default function Contact() {
+
+    const theme = createMuiTheme({
+        palette: {
+            primary:{
+                main: "#F0D370"
+            }
+        }
+    })
 
     const handleSubmit= (e) => {
         e.preventDefault()
@@ -29,6 +38,12 @@ export default function Contact() {
                 <img src="images/image2.svg" />
             </div> */}
             <div className="icon-container">
+                <div className="github">
+                    <a href="https://github.com/BradleySH"><GitHubIcon fontSize="large" style={{ color: "#F0D370"}} /></a>
+                </div>
+                <div className="linedin">
+                    <a href="https://www.linkedin.com/in/bhorlander/" ><LinkedInIcon fontSize="large" style={{ color: "#F0D370"}} /></a>
+                </div>
             </div>
         </div>
     )
