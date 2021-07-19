@@ -1,0 +1,26 @@
+.projects-container {
+    background-color: #d3d3d3;
+    overflow-x: visible;
+    
+    .swiper-container{
+        height: 100%;
+        width: 100%;
+        overflow-x: visible;
+
+        .project1{
+            height: 100%;
+            width: 100%;
+            background-color: lightskyblue;
+        }
+        .project2{
+            height: 100%;
+            width: 100%;
+            background-color: lightsalmon;
+        }
+        .project3{
+            height: 100%;
+            width: 100%;
+            background-color: lightgreen;
+        }
+    }
+}

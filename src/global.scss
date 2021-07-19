@@ -1,0 +1,33 @@
+$mainColor: #425669;
+$grayColor: #d3d3d3;
+$orangeColor: #D98F4F;
+$yellowColor: #F0D370;
+
+$tabletWidth: 641px;
+$tablet-landscape: 900px;
+
+
+@mixin tablet {
+    @media (min-width: #{$tabletWidth}){
+        @content;
+    }
+}
+
+@mixin tablet-landscape {
+    @media (min-width: #{$tablet-landscape}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 1025px){
+        @content;
+    }
+    
+}
+
+@mixin large-desktop {
+    @media (min-width: 1281px){
+        @content;
+    }
+}

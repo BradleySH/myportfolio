@@ -1,0 +1,103 @@
+@import "../global.scss";
+
+.contact-container{
+    background-color:#425669;
+    display: flex;
+    flex-direction: column;
+
+    .top{
+        flex: 0.5;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        float: start;
+        margin-top: .80em;
+
+        h2{
+            font-size: 2em;
+            color: $yellowColor;
+        }
+
+        form{
+            width: 12.5em;
+            height: 18.75em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient($yellowColor, $orangeColor);
+            padding: 1.25em;
+            border-radius: 1.5625em;
+            @include tablet{
+                width: 20em;
+                height: 25em;
+            }
+
+            input{
+                width: 12.5em;
+                height: 1.875em;
+                font-size: 1em;
+                margin-bottom: 0.625em;
+                background-color: #E6E6E6;
+                border-radius: 1.25em;
+                border: none;
+                padding: 0.3125em;
+                @include tablet{
+                    width: 15.625em;
+                    height: 2.18em;
+                    font-size: 1.25em;
+                    margin-bottom: 1.25em;
+                    padding: 0.625em;
+                }
+
+            }
+
+            textarea{
+                width: 12.5em;
+                height: 12.5em;
+                font-size: 1em;
+                background-color: #E6E6E6;
+                margin-bottom: 0.625em;
+                border-radius: 1.25em;
+                border: none;
+                padding: 0.3125em;
+                @include tablet{
+                    width: 15.625em;
+                    height: 15.625em;
+                    font-size: 1.25em;
+                    margin-bottom: 1.25em;
+                    padding: 0.625em;
+                }
+            }
+
+            button{
+                border: none;
+                background-color: $mainColor;
+                color: $yellowColor;
+                height: 2.5em;
+                width: 6.25em;
+                border-radius: 1.5625em;
+                font-weight: 600;
+                @include tablet{
+                    height: 3.75em;
+                    width: 8.75em;
+                    font-size: 1.25em;
+
+
+                }
+
+            }
+            span{
+                color: $mainColor;
+                @include tablet{
+                    font-size: 1em;
+                    font-weight: 600;
+                }
+            }
+        }
+
+    }
+    
+}

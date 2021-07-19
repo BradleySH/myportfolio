@@ -1,0 +1,69 @@
+@import "../global.scss";
+
+.nav-container {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 3;
+    background-color: $mainColor;
+    color: $yellowColor;
+    transition: all .5s ease-in-out;
+
+    .wrapper{
+        padding: 10px 30px;
+        display: flex;
+        justify-content: space-between;
+
+        .left{
+            text-decoration: none;
+            color: inherit;
+            .home{
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+        .right {
+
+            .hamburger{
+                width: 32px;
+                height: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+
+                span{
+                    width: 100%;
+                    height: 3px;
+                    background-color: $yellowColor;
+                    transform-origin: left;
+                    transition: all .5s ease-in-out;
+                }
+            }
+        }
+
+    }
+
+    &.active{
+        background-color: #2f3e4b;
+        color: $yellowColor;
+        transition: all 1s ease-in-out;
+
+        .hamburger{
+            span{
+                &:first-child{
+                    background-color: $yellowColor;
+                    transform: rotate(45deg);
+                }
+                &:nth-child(2){
+                    opacity: 0;
+                    transform: rotate(180deg);
+                }
+                &:last-child{
+                    background-color: $yellowColor;
+                    transform: rotate(-45deg);
+                }
+            }
+        }
+    }
+}

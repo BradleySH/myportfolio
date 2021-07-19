@@ -1,0 +1,59 @@
+@import "../global.scss";
+.about-container {
+    background-color: $mainColor;
+    display: flex;
+    flex-direction: column;
+    color: $yellowColor;
+
+    .left{
+        flex: 0.4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2em;
+        @include tablet{
+            align-items: center;
+            font-size: 1em;
+        }
+
+        width: 100%;
+        height: 100%;
+        
+        h3{
+           text-decoration: underline;
+         
+        }
+        ul{
+            
+           
+            li{
+                padding: .25em;
+                list-style:square;
+            }
+        }
+    }
+
+    .right{
+        flex: 0.6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include tablet{
+            align-items: center;
+            font-size: 1em;
+        }
+
+        width: 100%;
+        height: 100%;
+        h3{
+            text-decoration: underline;
+            
+        }
+        p{
+            @include tablet{
+                padding: 1em;
+            }
+        }
+        
+    }
+}

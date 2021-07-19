@@ -1,0 +1,96 @@
+@import "../global.scss";
+
+.main-container {
+    display: flex;
+    background-color:#425669;
+    flex-direction: column;
+
+
+    .left{
+        flex: 0.5;
+        color: $yellowColor;
+        .wrapper{
+            height: 100%;
+            width: 100%;
+            padding-left: 3.125em;
+            display: flex;
+            flex-direction: column;
+            @include tablet{
+                align-items: center;
+                padding-left: 0;
+            }
+
+            h1{
+                font-weight: 400;
+                @include tablet{
+                    font-size: 4.375em;
+                }
+                .name{
+                    font-weight: 600;
+                    color: $orangeColor;
+                }
+            }
+            .contact{
+                height: 2.5em;
+                width: 6.875em;
+                border: none;
+                background-color: $orangeColor;
+                margin-right: 0.625em;
+                border-radius: 1.5625em;
+                @include tablet{
+                    height: 3.75em;
+                    width: 8.125em;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: $mainColor;
+                    font-size: 1em;
+                    font-weight: 600;
+                    @include tablet{
+                        font-size: 1.125em;
+                    }
+                }
+            }
+            .projects{
+                height: 2.5em;
+                width: 6.875em;
+                border: none;
+                background-color: $yellowColor;
+                border-radius: 1.5625em;
+                @include tablet{
+                    height: 3.75em;
+                    width: 8.125em;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: $mainColor;
+                    font-size: 1em;
+                    font-weight: 600;
+                    @include tablet{
+                        font-size: 1.125em;
+                    }
+                }
+            }
+        }
+        
+        
+
+    }
+    
+    .image{
+        flex: 0.5;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            height: 100%;
+            width: 100%;
+            
+        }
+    }
+    
+}
