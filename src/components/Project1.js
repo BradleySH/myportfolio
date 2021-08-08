@@ -10,7 +10,7 @@ const Project1 = () => {
       <div className="left">
         <div className="desc">
           <h3>Description</h3>
-          <p>This app is FullStack with MongoDB as the database it showcases the use of CRUD operations to implement storage applications. In the app you can create, read, update, and delete a bounty from the database and have it reflected immedietyly to the user.</p>
+          <p>This app is FullStack with MongoDB as the database it showcases the use of CRUD operations to implement storage applications. In the app you can create, read, update, and delete a bounty from the database and have it reflected immediately to the user.</p>
           <div className="tech">
             <h4>Tech Used</h4>
             <ul>

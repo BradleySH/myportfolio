@@ -37,8 +37,6 @@
                     flex-wrap: wrap;
                     align-items:center;
                     justify-content: center;
-                    padding-left: 100px;
-                    padding-right: 100px;
 
                     @include cell {
                         display: flex;
@@ -48,7 +46,9 @@
                     }
 
                     p{
-                        width: 50%;
+                        width: 100%;
+                        padding: 10px;
+                        padding-right: 20px;
                         flex-wrap: wrap;
                         @include tablet {
                             width: 100%;
@@ -141,8 +141,6 @@
                     flex-wrap: wrap;
                     align-items:center;
                     justify-content: center;
-                    padding-left: 100px;
-                    padding-right: 100px;
 
                     @include cell {
                         display: flex;
@@ -152,7 +150,9 @@
                     }
 
                     p{
-                        width: 50%;
+                        width: 100%;
+                        padding: 10px;
+                        padding-right: 20px;
                         flex-wrap: wrap;
                         @include tablet {
                             width: 100%;
@@ -253,8 +253,7 @@
                     flex-wrap: wrap;
                     align-items:center;
                     justify-content: center;
-                    padding-left: 100px;
-                    padding-right: 100px;
+
 
                     @include cell {
                         display: flex;
@@ -264,7 +263,9 @@
                     }
 
                     p{
-                        width: 50%;
+                        width: 100%;
+                        padding: 5px;
+                        padding-right: 20px;
                         flex-wrap: wrap;
                         @include tablet {
                             width: 100%;
