@@ -26,7 +26,7 @@ export default function Contact() {
         <div className="contact-container" id="contact">
             <div className="top">
                 <h2>Contact Me</h2>
-                <form action="mailto:brad@bradhorlander.com" method="post" name="email" onSubmit={handleSubmit}>
+                <form action="mailto:brad@bradhorlander.com" method="POST" name="email" onSubmit={handleSubmit}>
                     <input type="text" placeholder="Name" required/>
                     <input type="email" placeholder="E-mail" required />
                     <textarea placeholder="Message" required></textarea>
