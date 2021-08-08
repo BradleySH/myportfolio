@@ -52,6 +52,11 @@
             
         }
         p{
+            span{
+                font-size: 20px;
+                font-weight: 600;
+                text-decoration: underline;
+            }
             @include tablet{
                 padding: 1em;
             }

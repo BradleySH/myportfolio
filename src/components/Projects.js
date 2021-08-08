@@ -6,6 +6,9 @@ import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
+import Project1 from "./Project1"
+import Project2 from "./Project2"
+import Project3 from './Project3';
 
 SwiperCore.use(Navigation, Pagination, Scrollbar, A11y)
 
@@ -28,10 +31,10 @@ export default function Projects() {
                 onSlideChange={(swiper) => console.log('slide change')}
                 onReachEnd={() => console.log(`swiper has reached the end`)}
             >
-      <SwiperSlide className="project1" tag="li">Project 1</SwiperSlide>
-      <SwiperSlide className="project2" tag="li">Project 2</SwiperSlide>
-      <SwiperSlide className="project3" tag="li">Project 3</SwiperSlide>
-      ...
+      <SwiperSlide className="project1" tag="li"><Project1 /></SwiperSlide>
+      <SwiperSlide className="project2" tag="li"><Project2 /></SwiperSlide>
+      <SwiperSlide className="project3" tag="li"><Project3 /></SwiperSlide>
+      
     </Swiper>
         </div>
     )
