@@ -1,334 +1,152 @@
 @import "../global.scss";
 
 .projects-container {
-    background-color: #d3d3d3;
-    overflow-x: visible;
-    
-    .swiper-container{
-        height: 100%;
-        width: 100%;
-        overflow-x: visible;
-
-        .project1{
-            background-color: #425669;
-            color: #F0D370; 
-            align-items: center;   
-            
-            .title{
-                padding-top: 20px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 100%;
-                height: 50px;
-
-                
-
-                h1{
-                    font-size: 40px;
-                }
-            }
-            .left{
-                flex: 0.4;
-                padding-top: 15px;
-                .desc{
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    align-items:center;
-                    justify-content: center;
-
-                    @include cell {
-                        display: flex;
-                        padding-left: 10px;
-                        padding-right: 10px;
-                        width: 100%;
-                    }
-
-                    p{
-                        width: 100%;
-                        padding: 10px;
-                        padding-right: 20px;
-                        flex-wrap: wrap;
-                        @include tablet {
-                            width: 100%;
-                            flex-wrap: wrap;
-                        }
-                     }
-
-                    
-                    h3{
-                        padding: 20px;
-                        text-decoration: underline;
-                    }
-
-                    .tech{
-                        width: 100%;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-around;
-                        align-items: center;
-                        padding: 15px;
-
-                        ul{
-                            padding: 10px;
-                        }
-
-                        video{
-                            border: 10px solid #425669;
-                        }
-
-
-                        h4{
-                            text-decoration: underline;
-                        }
-
-                        button{
-                            height: 2.5em;
-                            width: 6.875em;
-                            border: none;
-                            background-color: #F0D370;
-                            margin-right: 0.625em;
-                            border-radius: 1.5625em;
-                            text-decoration: none;
-                            font-size: 1em;
-
-                            a{
-                                text-decoration: none;
-                                color:#425669;
-                            }
-                        }
-                        
-                    }
-
-                }
-            }
-
-            .right{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-            
-        }
-        .project2{
-            height: 100%;
-            width: 100%;
-            background-color:#425669 ;
-            color: #F0D370;
-
-            .title{
-                padding-top: 20px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 100%;
-                height: 50px;
-
-                
-
-                h1{
-                    font-size: 40px;
-                }
-            }
-            .left{
-                flex: 0.4;
-                padding-top: 15px;
-                .desc{
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    align-items:center;
-                    justify-content: center;
-
-                    @include cell {
-                        display: flex;
-                        padding-left: 10px;
-                        padding-right: 10px;
-                        width: 100%;
-                    }
-
-                    p{
-                        width: 100%;
-                        padding: 10px;
-                        padding-right: 20px;
-                        flex-wrap: wrap;
-                        @include tablet {
-                            width: 100%;
-                            flex-wrap: wrap;
-                        }
-                        @include cell {
-                            width: 100%;
-                            flex-wrap: wrap;
-                            padding: 10px;
-                        }
-                     }
-
-                    
-                    h3{
-                        padding: 20px;
-                        text-decoration: underline;
-                    }
-
-                    .tech{
-                        width: 100%;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-around;
-                        align-items: center;
-                        padding: 15px;
-
-                        ul{
-                            padding: 10px;
-                        }
-
-                        h4{
-                            text-decoration: underline;
-                        }
-
-                        button{
-                            height: 2.5em;
-                            width: 6.875em;
-                            border: none;
-                            background-color: #F0D370;
-                            margin-right: 0.625em;
-                            border-radius: 1.5625em;
-                            text-decoration: none;
-                            font-size: 1em;
-
-                            a{
-                                text-decoration: none;
-                                color:#425669;
-                            }
-                        }
-                        
-                    }
-
-                }
-            }
-
-            .right{
-                flex: 0.5;
-                height: 100%;
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                iframe{
-                    height: 300px;
-                    width: 500px;
-                    @include cell {
-                        width: 100%;
-                    }
-                }
-            }
-        }
-        .project3{
-            height: 100%;
-            width: 100%;
-            background-color: #425669;
-            color: #F0D370;
-
-            .title{
-                padding-top: 20px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 100%;
-                height: 50px;
-
-                
-
-                h1{
-                    font-size: 40px;
-                }
-            }
-            .left{
-                flex: 0.4;
-                padding-top: 15px;
-                .desc{
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    align-items:center;
-                    justify-content: center;
-
-
-                    @include cell {
-                        display: flex;
-                        padding-left: 10px;
-                        padding-right: 10px;
-                        width: 100%;
-                    }
-
-                    p{
-                        width: 100%;
-                        padding: 5px;
-                        padding-right: 20px;
-                        flex-wrap: wrap;
-                        @include tablet {
-                            width: 100%;
-                            flex-wrap: wrap;
-                        }
-                     }
-
-                    
-                    h3{
-                        padding: 20px;
-                        text-decoration: underline;
-                    }
-
-                    .tech{
-                        width: 100%;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-around;
-                        align-items: center;
-                        padding: 15px;
-
-                        ul{
-                            padding: 10px;
-                        }
-
-
-                        h4{
-                            text-decoration: underline;
-                        }
-
-                        button{
-                            height: 2.5em;
-                            width: 6.875em;
-                            border: none;
-                            background-color: #F0D370;
-                            margin-right: 0.625em;
-                            border-radius: 1.5625em;
-                            text-decoration: none;
-                            font-size: 1em;
-
-                            a{
-                                text-decoration: none;
-                                color:#425669;
-                            }
-                        }
-                        
-                    }
-
-                }
-            }
-
-            .right{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                .image{
-                    height: 25%;
-                    width: 100%;
-                }
-            }
-        }
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #425669;
+  overflow: auto;
+  @include cell {
+    justify-content: center;
+    flex-flow: wrap;
+    .container {
+      width: 50%;
     }
-}
+  }
+  @include tablet {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    .container {
+      width: 50%;
+    }
+  }
+  @include tablet-landscape {
+    display: block;
+    justify-content: center;
+    flex-flow: wrap;
+    .container {
+      width: 50%;
+    }
+  }
+  @include desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  @include large-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
-// #-swipe > ul > li.swiper-slide.project1.swiper-slide-active > div > div.title > h1
+  .container {
+    // width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 20px;
+
+    .card {
+      min-height: 80vh;
+      width: 30rem;
+      box-shadow: 0 20px 20px rgba($color: #000000, $alpha: 0.2),
+        0px 0px 50px rgba($color: #000000, $alpha: 0.2);
+      border-radius: 30px;
+      padding: 0rem 5rem;
+
+      .hero {
+        min-height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        iframe {
+          width: 30rem;
+          z-index: 2;
+          @include cell {
+            width: 20rem;
+          }
+        }
+        img {
+          width: 30rem;
+          z-index: 2;
+          @include cell {
+            width: 20rem;
+          }
+        }
+
+        video {
+          width: 30rem;
+          z-index: 2;
+          @include cell {
+            width: 20rem;
+          }
+        }
+      }
+      .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        .title {
+          font-size: 3rem;
+          color: #f0d370;
+          @include cell {
+            font-size: 2rem;
+          }
+        }
+
+        p {
+          font-size: 1rem;
+          padding: 1rem 0rem;
+          color: #f0d370;
+          font-weight: lighter;
+          @include cell {
+            font-size: 0.75rem;
+          }
+        }
+        .tech-stack {
+          font-size: 1.5rem;
+          color: #f0d370;
+          @include cell {
+            font-size: 1.5rem;
+          }
+
+          p {
+            font-size: 1rem;
+            color: #f0d370;
+            @include cell {
+              font-size: 0.75rem;
+            }
+          }
+        }
+        .github {
+          padding: 1rem 2rem;
+          background-color: #f0d370;
+          color: #425669;
+          box-shadow: 0px 5px 10px rgba($color: #000000, $alpha: 0.2);
+          cursor: pointer;
+          font-weight: bold;
+          border-radius: 30px;
+
+          a {
+            text-decoration: none;
+            color: #425669;
+          }
+          .github:hover {
+            rotate: 10deg;
+          }
+        }
+      }
+    }
+  }
+}

@@ -12,12 +12,7 @@ const Project2 = () => {
           <p>This was my first time using Redux for state managament with React and TypeScript.  Its a simple API request to get all of the npm registries to see if an npm package exists.</p>
           <div className="tech">
             <h4>Tech Used</h4>
-            <ul>
-              <li>React</li>
-              <li>TypeScript</li>
-              <li>Redux</li>
-              <li>CSS</li>
-            </ul>
+            <p className="tools">React, TypeScript, Redux, CSS</p>
             <button className="npm">
               <a href="https://github.com/BradleySH/npm-registry">Check it out</a>
             </button>

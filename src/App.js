@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import "./app.scss"
 import Main from "./components/Main"
 import Navbar from "./components/Navbar"
-import Projects from "./components/Projects"
+import Project from "./components/Projects"
 import About from "./components/About"
 import Contact from "./components/Contact"
 import Menu from "./components/Menu"
@@ -17,7 +17,7 @@ function App() {
       <Menu open={hamburgerOpen} setOpen={setHamburgerOpen}/>
       <div className="sections">
         <Main />
-        <Projects />
+        <Project />
         <About />
         <Contact />
       </div>

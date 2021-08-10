@@ -1,39 +1,37 @@
 $mainColor: #425669;
 $grayColor: #d3d3d3;
-$orangeColor: #D98F4F;
-$yellowColor: #F0D370;
+$orangeColor: #d98f4f;
+$yellowColor: #f0d370;
 
-$tabletWidth: 641px;
+$tabletWidth: 400px;
 $tablet-landscape: 900px;
 
 @mixin cell {
-    @media (max-width: 400px){
-        @content;
-    }
+  @media (max-width: 400px) {
+    @content;
+  }
 }
 
-
 @mixin tablet {
-    @media (min-width: #{$tabletWidth}){
-        @content;
-    }
+  @media (min-width: #{$tabletWidth}) {
+    @content;
+  }
 }
 
 @mixin tablet-landscape {
-    @media (min-width: #{$tablet-landscape}) {
-        @content;
-    }
+  @media (min-width: #{$tablet-landscape}) {
+    @content;
+  }
 }
 
 @mixin desktop {
-    @media (min-width: 1025px){
-        @content;
-    }
-    
+  @media (min-width: 1025px) {
+    @content;
+  }
 }
 
 @mixin large-desktop {
-    @media (min-width: 1281px){
-        @content;
-    }
+  @media (min-width: 1281px) {
+    @content;
+  }
 }

@@ -26,12 +26,12 @@ export default function Contact() {
         <div className="contact-container" id="contact">
             <div className="top">
                 <h2>Contact Me</h2>
-                <form action="mailto:brad@bradhorlander.com" method="POST" name="email" onSubmit={handleSubmit}>
+                <form action="mailto:bradley.s.horlander@gmail.com" method="post" encType="text/plain">
                     <input type="text" placeholder="Name" required/>
                     <input type="email" placeholder="E-mail" required />
                     <textarea placeholder="Message" required></textarea>
                     <button type="submit">Send</button>
-                    {message && <span>Thank you! I'll reach out soon!</span>}
+                    {/* {message && <span>Thank you! I'll reach out soon!</span>} */}
                 </form>
             </div>
             {/* <div className="bottom">
